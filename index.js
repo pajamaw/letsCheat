@@ -25,7 +25,7 @@ CDP(async (client) => {
       //hide tracks
       removeThatShit
       reloadThatShit
-      client.close();
+      client.close({});
     });
 }).on('error', (err) => {
     console.error(err);
